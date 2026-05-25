@@ -1,0 +1,9 @@
+﻿Purchase Order Approval SOP
+
+Purchase orders up to ,000 require department manager approval.
+
+Purchase orders between ,001 and ,000 require approval from the finance manager.
+
+Purchase orders above ,000 require CFO approval.
+
+Emergency purchases must be documented with business justification and reviewed within 7 working days.
