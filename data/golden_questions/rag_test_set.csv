@@ -1,0 +1,6 @@
+﻿question,expected_source,expected_keywords
+Who approves purchase orders above 50000 dollars?,purchase_order_approval_sop.txt,CFO|above ,000|approval
+How many days of annual leave are employees eligible for?,hr_leave_policy.txt,18 days|annual leave|calendar year
+When should employees return company laptop?,laptop_return_policy.txt,3 working days|return company laptops|IT asset team
+What is the domestic travel meal reimbursement limit?,travel_reimbursement_policy.txt, per day|domestic travel|meal reimbursement
+Who can perform machine maintenance?,workplace_safety_manual.txt,authorized technicians|machine maintenance

@@ -1,0 +1,41 @@
+question,expected_source,expected_keywords,answer,retrieved_sources,keyword_score,source_match_score,answer_present_score,overall_score
+Who approves purchase orders above 50000 dollars?,purchase_order_approval_sop.txt,CFO|above ,"Answer:
+The CFO approves purchase orders above $50,000.
+
+Sources:
+- purchase_order_approval_sop.txt, Chunk Number: 1
+
+Confidence:
+High",purchase_order_approval_sop.txt; travel_reimbursement_policy.txt; workplace_safety_manual.txt,1.0,1.0,1.0,1.0
+How many days of annual leave are employees eligible for?,hr_leave_policy.txt,18 days|annual leave|calendar year,"Answer:
+Employees are eligible for 18 days of annual leave per calendar year.
+
+Sources:
+- hr_leave_policy.txt, Chunk Number: 1
+
+Confidence:
+High",hr_leave_policy.txt; workplace_safety_manual.txt; travel_reimbursement_policy.txt,1.0,1.0,1.0,1.0
+When should employees return company laptop?,laptop_return_policy.txt,3 working days|return company laptops|IT asset team,"Answer:
+Employees must return company laptops within 3 working days after resignation, termination, or project completion.
+
+Sources:
+- laptop_return_policy.txt, Chunk Number: 1
+
+Confidence:
+High",laptop_return_policy.txt; workplace_safety_manual.txt; travel_reimbursement_policy.txt,0.6667,1.0,1.0,0.8889
+What is the domestic travel meal reimbursement limit?,travel_reimbursement_policy.txt, per day|domestic travel|meal reimbursement,"Answer:
+$25 per day
+
+Sources:
+- travel_reimbursement_policy.txt, Chunk Number: 1
+
+Confidence:
+High",travel_reimbursement_policy.txt; purchase_order_approval_sop.txt; laptop_return_policy.txt,0.3333,1.0,1.0,0.7778
+Who can perform machine maintenance?,workplace_safety_manual.txt,authorized technicians|machine maintenance,"Answer:
+Authorized technicians can perform machine maintenance.
+
+Sources:
+- workplace_safety_manual.txt, Chunk Number: 1
+
+Confidence:
+High",workplace_safety_manual.txt; laptop_return_policy.txt; purchase_order_approval_sop.txt,1.0,1.0,1.0,1.0

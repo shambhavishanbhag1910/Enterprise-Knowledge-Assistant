@@ -1,0 +1,156 @@
+[
+    {
+        "question": "Who approves purchase orders above 50000 dollars?",
+        "expected_source": "purchase_order_approval_sop.txt",
+        "expected_keywords": [
+            "CFO",
+            "approval",
+            "$50,000"
+        ],
+        "answer": "Answer:\nThe CFO approves purchase orders above $50,000.\n\nSources:\n- purchase_order_approval_sop.txt, Chunk Number: 1\n\nConfidence:\nHigh",
+        "retrieved_sources": [
+            {
+                "document_name": "purchase_order_approval_sop.txt",
+                "chunk_number": 1,
+                "score": 0.7400254
+            },
+            {
+                "document_name": "travel_reimbursement_policy.txt",
+                "chunk_number": 1,
+                "score": 0.5545577
+            },
+            {
+                "document_name": "workplace_safety_manual.txt",
+                "chunk_number": 1,
+                "score": 0.46982652
+            }
+        ],
+        "keyword_score": 1.0,
+        "source_match_score": 1.0,
+        "answer_present_score": 1.0,
+        "overall_score": 1.0
+    },
+    {
+        "question": "How many days of annual leave are employees eligible for?",
+        "expected_source": "hr_leave_policy.txt",
+        "expected_keywords": [
+            "18 days",
+            "annual leave",
+            "calendar year"
+        ],
+        "answer": "Answer:\nEmployees are eligible for 18 days of annual leave per calendar year.\n\nSources:\n- hr_leave_policy.txt, Chunk Number: 1\n\nConfidence:\nHigh",
+        "retrieved_sources": [
+            {
+                "document_name": "hr_leave_policy.txt",
+                "chunk_number": 1,
+                "score": 0.8551263
+            },
+            {
+                "document_name": "workplace_safety_manual.txt",
+                "chunk_number": 1,
+                "score": 0.64814126
+            },
+            {
+                "document_name": "travel_reimbursement_policy.txt",
+                "chunk_number": 1,
+                "score": 0.64305294
+            }
+        ],
+        "keyword_score": 1.0,
+        "source_match_score": 1.0,
+        "answer_present_score": 1.0,
+        "overall_score": 1.0
+    },
+    {
+        "question": "When should employees return company laptop?",
+        "expected_source": "laptop_return_policy.txt",
+        "expected_keywords": [
+            "3 working days",
+            "return",
+            "laptop"
+        ],
+        "answer": "Answer:\nEmployees must return company laptops within 3 working days after resignation, termination, or project completion.\n\nSources:\n- laptop_return_policy.txt, Chunk Number: 1\n\nConfidence:\nHigh",
+        "retrieved_sources": [
+            {
+                "document_name": "laptop_return_policy.txt",
+                "chunk_number": 1,
+                "score": 0.88833934
+            },
+            {
+                "document_name": "workplace_safety_manual.txt",
+                "chunk_number": 1,
+                "score": 0.65298665
+            },
+            {
+                "document_name": "travel_reimbursement_policy.txt",
+                "chunk_number": 1,
+                "score": 0.62364364
+            }
+        ],
+        "keyword_score": 1.0,
+        "source_match_score": 1.0,
+        "answer_present_score": 1.0,
+        "overall_score": 1.0
+    },
+    {
+        "question": "What is the domestic travel meal reimbursement limit?",
+        "expected_source": "travel_reimbursement_policy.txt",
+        "expected_keywords": [
+            "$100 per day",
+            "domestic travel",
+            "meal reimbursement"
+        ],
+        "answer": "Answer:\nDomestic travel meal reimbursement is limited to $ per day.\n\nSources:\n- travel_reimbursement_policy.txt, Chunk Number: 1\n\nConfidence:\nHigh",
+        "retrieved_sources": [
+            {
+                "document_name": "travel_reimbursement_policy.txt",
+                "chunk_number": 1,
+                "score": 0.85200876
+            },
+            {
+                "document_name": "purchase_order_approval_sop.txt",
+                "chunk_number": 1,
+                "score": 0.5986536
+            },
+            {
+                "document_name": "laptop_return_policy.txt",
+                "chunk_number": 1,
+                "score": 0.57482195
+            }
+        ],
+        "keyword_score": 0.6667,
+        "source_match_score": 1.0,
+        "answer_present_score": 1.0,
+        "overall_score": 0.8889
+    },
+    {
+        "question": "Who can perform machine maintenance?",
+        "expected_source": "workplace_safety_manual.txt",
+        "expected_keywords": [
+            "authorized technicians",
+            "machine maintenance"
+        ],
+        "answer": "Answer:\nAuthorized technicians can perform machine maintenance.\n\nSources:\n- workplace_safety_manual.txt, Chunk Number: 1\n\nConfidence:\nHigh",
+        "retrieved_sources": [
+            {
+                "document_name": "workplace_safety_manual.txt",
+                "chunk_number": 1,
+                "score": 0.6856667
+            },
+            {
+                "document_name": "laptop_return_policy.txt",
+                "chunk_number": 1,
+                "score": 0.53970426
+            },
+            {
+                "document_name": "purchase_order_approval_sop.txt",
+                "chunk_number": 1,
+                "score": 0.512368
+            }
+        ],
+        "keyword_score": 1.0,
+        "source_match_score": 1.0,
+        "answer_present_score": 1.0,
+        "overall_score": 1.0
+    }
+]

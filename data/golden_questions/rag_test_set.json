@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Who approves purchase orders above 50000 dollars?",
+    "expected_source": "purchase_order_approval_sop.txt",
+    "expected_keywords": ["CFO", "approval", "$50,000"]
+  },
+  {
+    "question": "How many days of annual leave are employees eligible for?",
+    "expected_source": "hr_leave_policy.txt",
+    "expected_keywords": ["18 days", "annual leave", "calendar year"]
+  },
+  {
+    "question": "When should employees return company laptop?",
+    "expected_source": "laptop_return_policy.txt",
+    "expected_keywords": ["3 working days", "return", "laptop"]
+  },
+  {
+    "question": "What is the domestic travel meal reimbursement limit?",
+    "expected_source": "travel_reimbursement_policy.txt",
+    "expected_keywords": ["$100 per day", "domestic travel", "meal reimbursement"]
+  },
+  {
+    "question": "Who can perform machine maintenance?",
+    "expected_source": "workplace_safety_manual.txt",
+    "expected_keywords": ["authorized technicians", "machine maintenance"]
+  }
+]
